@@ -1,0 +1,143 @@
+body{
+    margin: 0px;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+}
+
+.oneProduct{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    margin: 15px;
+    margin-bottom: 0px;
+}
+
+.oneProduct:nth-child(odd){
+    background-color: #ebebeb;
+}
+
+.oneProduct:nth-child(even){
+    background-color: #fafafa;
+}
+
+.mainPartOfProduct{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+.left img{
+    width: 250px;
+    height: 250px;
+    transition: 2s;
+}
+
+.smallInfo{
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
+}
+
+.right{
+    padding-left: 0px;
+}
+
+.title p{
+    color: #4a91e2;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.info{
+    margin-top: 20px;
+}
+
+.buy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4a91e2;
+    width: 140px;
+    height: 40px;
+    color:white;
+    transition: 2s;
+}
+
+.buyAfterLoad:hover{
+    background-color: #7ab9ff;
+}
+
+.buyImg{
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+}
+
+.buy p{
+    margin-right: 5px;
+}
+
+@media (max-width: 1100px){
+    .twoProducts{
+        display: flex;
+        flex-direction: row;
+        margin-right: 10px;
+    }
+
+    .oneProduct{
+        flex-direction: column;
+        margin: 0px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .title p{
+        text-align: left;
+    }
+
+    .right{
+        align-items: left;
+        margin: 20px;
+        margin-top: 0px;
+    }
+
+    .left{
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 800px){
+    .twoProducts{
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+    }
+
+    .oneProduct{
+        flex-direction: column;
+        margin: 0px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .title p{
+        text-align: left;
+    }
+
+    .right{
+        align-items: left;
+        margin: 20px;
+        margin-top: 0px;
+    }
+
+    .left{
+        align-items: center;
+    }
+
+}

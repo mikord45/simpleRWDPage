@@ -1,0 +1,8 @@
+1. na mobile widzimy jeden boks (elementy w nim są jeden po drugim), na tablecie dwa, na desktopie elementy są szerokie (kontent w środku jest w formie poziomej)
+2. do wykorzystania: float'y, :before i ascii, (jeśłi ktoś chce może wykorzystać flexbox)
+3. po najechaniu na cały boks, obrazek lekko się powiększa (płynnie, z animacją)
+4. po najechaniu na przycisk KUP, zmienia on kolor na jaśniejszy (płynnie, z animacją)
+5. pamięajmy o wykorzystaniu poprawnych znaczników HTML5 :)
+
+Powodzenia ! :)
+
